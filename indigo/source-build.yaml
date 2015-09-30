@@ -12,11 +12,13 @@ targets:
   _config:
     apt_mirrors:
     - http://localhost/building/ubuntu DISTRO main
+    - http://packages.yujinrobot.com/yujin/ubuntu trusty main
     - http://packages.ros.org/ros/ubuntu DISTRO main
     - http://archive.ubuntu.com/ubuntu DISTRO main universe
     - http://archive.ubuntu.com/ubuntu DISTRO-updates main universe
     apt_keys:
     - http://packages.ros.org/ros.key
+    - http://packages.yujinrobot.com/yujin.key
   ubuntu:
     trusty:
       amd64:
