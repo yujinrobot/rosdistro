@@ -124,6 +124,16 @@ repositories:
       url: https://github.com/stonier/ecl_tools.git
       version: indigo
     status: developed
+  gopher_msgs:
+    doc:
+      type: git
+      url: https://bitbucket.org/yujinrobot/gopher_msgs.git
+      version: indigo
+    source:
+      type: git
+      url: https://bitbucket.org/yujinrobot/gopher_msgs.git
+      version: indigo
+    status: developed
 
 type: distribution
 version: 1
