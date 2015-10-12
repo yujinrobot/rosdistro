@@ -129,11 +129,20 @@ repositories:
       type: git
       url: https://bitbucket.org/yujinrobot/gopher_msgs.git
       version: indigo
+    release:
+      packages:
+      - gopher_msgs
+      - gopher_navi_msgs
+      - gopher_semantic_msgs
+      - gopher_std_msgs
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://bitbucket.org/yujinrobot/gopher_msgs-release.git
+      version: 0.2.0-0
     source:
       type: git
       url: https://bitbucket.org/yujinrobot/gopher_msgs.git
       version: indigo
     status: developed
-
 type: distribution
 version: 1
