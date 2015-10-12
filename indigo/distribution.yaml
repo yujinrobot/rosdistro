@@ -127,7 +127,7 @@ repositories:
   gopher_msgs:
     doc:
       type: git
-      url: asmodehn@bitbucket.org:yujinrobot/gopher_msgs.git
+      url: git@bitbucket.org:yujinrobot/gopher_msgs.git
       version: indigo
     release:
       packages:
@@ -137,11 +137,11 @@ repositories:
       - gopher_std_msgs
       tags:
         release: release/indigo/{package}/{version}
-      url: asmodehn@bitbucket.org:yujinrobot/gopher_msgs-release.git
+      url: git@bitbucket.org:yujinrobot/gopher_msgs-release.git
       version: 0.2.0-0
     source:
       type: git
-      url: asmodehn@bitbucket.org:yujinrobot/gopher_msgs.git
+      url: git@bitbucket.org:yujinrobot/gopher_msgs.git
       version: indigo
     status: developed
 type: distribution
