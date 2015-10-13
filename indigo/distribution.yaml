@@ -222,5 +222,90 @@ repositories:
       url: https://github.com/yujinrobot/somanet_msgs.git
       version: indigo
     status: developed
+  rocon_multimaster:
+    doc:
+      type: git
+      url: https://github.com/robotics-in-concert/rocon_multimaster.git
+      version: gopher
+    release:
+      packages:
+      - rocon_gateway
+      - rocon_gateway_tests
+      - rocon_gateway_utils
+      - rocon_hub
+      - rocon_hub_client
+      - rocon_multimaster
+      - rocon_test
+      - rocon_unreliable_experiments
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/rocon_multimaster-release.git
+      version: 0.8.0-0
+    source:
+      type: git
+      url: https://github.com/robotics-in-concert/rocon_multimaster.git
+      version: gopher
+    status: developed
+  rocon_qt_gui:
+    doc:
+      type: git
+      url: https://github.com/robotics-in-concert/rocon_qt_gui.git
+      version: gopher
+    release:
+      packages:
+      - concert_admin_app
+      - concert_conductor_graph
+      - concert_qt_image_stream
+      - concert_qt_make_a_map
+      - concert_qt_map_annotation
+      - concert_qt_service_info
+      - concert_qt_teleop
+      - rocon_gateway_graph
+      - rocon_qt_app_manager
+      - rocon_qt_gui
+      - rocon_qt_library
+      - rocon_qt_listener
+      - rocon_qt_master_info
+      - rocon_qt_teleop
+      - rocon_remocon
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/rocon_qt_gui-release.git
+      version: 0.8.0-0
+    source:
+      type: git
+      url: https://github.com/robotics-in-concert/rocon_qt_gui.git
+      version: gopher
+    status: developed
+  rocon_tools:
+    doc:
+      type: git
+      url: https://github.com/robotics-in-concert/rocon_tools.git
+      version: gopher
+    release:
+      packages:
+      - rocon_bubble_icons
+      - rocon_console
+      - rocon_ebnf
+      - rocon_icons
+      - rocon_interactions
+      - rocon_launch
+      - rocon_master_info
+      - rocon_python_comms
+      - rocon_python_redis
+      - rocon_python_utils
+      - rocon_python_wifi
+      - rocon_semantic_version
+      - rocon_tools
+      - rocon_uri
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/rocon_tools-release.git
+      version: 0.3.0-0
+    source:
+      type: git
+      url: https://github.com/robotics-in-concert/rocon_tools.git
+      version: gopher
+    status: developed
 type: distribution
 version: 1
