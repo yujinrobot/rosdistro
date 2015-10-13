@@ -6,6 +6,21 @@ release_platforms:
   ubuntu:
   - trusty
 repositories:
+  celeros:
+    doc:
+      type: git
+      url: https://github.com/asmodehn/celeros.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/celeros-release.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/asmodehn/celeros.git
+      version: indigo-devel
+    status: developed
   dslam_msgs:
     doc:
       type: git
@@ -139,6 +154,103 @@ repositories:
       url: https://github.com/stonier/ecl_tools.git
       version: indigo
     status: developed
+  elevator_interactions:
+    doc:
+      type: git
+      url: git@bitbucket.org:yujinrobot/elevator_interactions.git
+      version: indigo
+    release:
+      packages:
+      - elevator_controller_interface
+      - elevator_interactions
+      - elevator_interactions_msgs
+      - elevator_operator
+      - elevator_operator_2jsoft
+      - elevator_operator_modbus
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/elevator_interactions-release.git
+      version: 0.1.0-0
+    source:
+      type: git
+      url: git@bitbucket.org:yujinrobot/elevator_interactions.git
+      version: indigo
+    status: developed
+  flask-ext-catkin:
+    doc:
+      type: git
+      url: https://github.com/asmodehn/flask-ext-catkin.git
+      version: indigo-devel
+    release:
+      packages:
+      - flask_ext_catkin
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/flask-ext-catkin-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: https://github.com/asmodehn/flask-ext-catkin.git
+      version: indigo-devel
+    status: end-of-life
+    status_description: Moving python dependencies to corresponding package repository
+  flask-task-planner:
+    doc:
+      type: git
+      url: git@bitbucket.org:yujinrobot/flask-task-planner.git
+      version: indigo
+    release:
+      packages:
+      - flask_task_planner
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/flask-task-planner-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: git@bitbucket.org:yujinrobot/flask-task-planner.git
+      version: indigo
+    status: developed
+  gopher_concert:
+    doc:
+      type: git
+      url: git@bitbucket.org:yujinrobot/gopher_concert.git
+      version: indigo
+    release:
+      packages:
+      - gocart_concert
+      - gopher_concert
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/gopher_concert-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: git@bitbucket.org:yujinrobot/gopher_concert.git
+      version: indigo
+    status: developed
+  gopher_crazy_hospital:
+    doc:
+      type: git
+      url: git@bitbucket.org:yujinrobot/gopher_crazy_hospital.git
+      version: indigo
+    release:
+      packages:
+      - gopher_behaviours
+      - gopher_configuration
+      - gopher_crazy_hospital
+      - gopher_semantics
+      - marco_polo
+      - py_trees
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/gopher_crazy_hospital-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: git@bitbucket.org:yujinrobot/gopher_crazy_hospital.git
+      version: indigo
+    status: developed
   gopher_msgs:
     doc:
       type: git
@@ -159,6 +271,56 @@ repositories:
       url: git@bitbucket.org:yujinrobot/gopher_msgs.git
       version: indigo
     status: developed
+  gopher_rapps:
+    doc:
+      type: git
+      url: git@bitbucket.org:yujinrobot/gopher_rapps.git
+      version: indigo
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/gopher_rapps-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: git@bitbucket.org:yujinrobot/gopher_rapps.git
+      version: indigo
+    status: developed
+  gopher_rocon:
+    doc:
+      type: git
+      url: git@bitbucket.org:yujinrobot/gopher_rocon.git
+      version: indigo
+    release:
+      packages:
+      - gopher_rocon
+      - gopher_rocon_bootstrap
+      - gopher_tasks
+      - gopher_webui
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/gopher_rocon-release.git
+      version: 0.2.1-0
+    source:
+      type: git
+      url: git@bitbucket.org:yujinrobot/gopher_rocon.git
+      version: indigo
+    status: developed
+  rocon:
+    doc:
+      type: git
+      url: https://github.com/robotics-in-concert/rocon.git
+      version: gopher
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/rocon-release.git
+      version: 0.7.2-0
+    source:
+      type: git
+      url: https://github.com/robotics-in-concert/rocon.git
+      version: gopher
+    status: developed
   rocon_app_platform:
     doc:
       type: git
@@ -177,6 +339,27 @@ repositories:
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_app_platform.git
+      version: gopher
+    status: developed
+  rocon_concert:
+    doc:
+      type: git
+      url: https://github.com/robotics-in-concert/rocon_concert.git
+      version: gopher
+    release:
+      packages:
+      - concert_conductor
+      - concert_master
+      - concert_software_farmer
+      - concert_utilities
+      - rocon_concert
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/rocon_concert-release.git
+      version: 0.7.1-0
+    source:
+      type: git
+      url: https://github.com/robotics-in-concert/rocon_concert.git
       version: gopher
     status: developed
   rocon_msgs:
@@ -206,21 +389,6 @@ repositories:
       type: git
       url: https://github.com/robotics-in-concert/rocon_msgs.git
       version: gopher
-    status: developed
-  somanet_msgs:
-    doc:
-      type: git
-      url: https://github.com/yujinrobot/somanet_msgs.git
-      version: indigo
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: git@bitbucket.org:yujinrobot/somanet_msgs-release.git
-      version: 0.1.1-0
-    source:
-      type: git
-      url: https://github.com/yujinrobot/somanet_msgs.git
-      version: indigo
     status: developed
   rocon_multimaster:
     doc:
@@ -306,6 +474,74 @@ repositories:
       type: git
       url: https://github.com/robotics-in-concert/rocon_tools.git
       version: gopher
+    status: developed
+  rocon_tutorials:
+    doc:
+      type: git
+      url: https://github.com/robotics-in-concert/rocon_tutorials.git
+      version: gopher
+    release:
+      packages:
+      - rocon_gateway_tutorials
+      - rocon_tutorials
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/rocon_tutorials-release.git
+      version: 0.7.0-0
+    source:
+      type: git
+      url: https://github.com/robotics-in-concert/rocon_tutorials.git
+      version: gopher
+    status: developed
+  rostful:
+    doc:
+      type: git
+      url: https://github.com/asmodehn/rostful.git
+      version: indigo-devel
+    release:
+      packages:
+      - rostful
+      - rostful_examples
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/rostful-release.git
+      version: 0.0.8-0
+    source:
+      type: git
+      url: https://github.com/asmodehn/rostful.git
+      version: indigo-devel
+    status: developed
+  rostful-node:
+    doc:
+      type: git
+      url: https://github.com/asmodehn/rostful-node.git
+      version: indigo-devel
+    release:
+      packages:
+      - rostful_node
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/rostful-node-release.git
+      version: 0.0.7-0
+    source:
+      type: git
+      url: https://github.com/asmodehn/rostful-node.git
+      version: indigo-devel
+    status: developed
+  somanet_msgs:
+    doc:
+      type: git
+      url: https://github.com/yujinrobot/somanet_msgs.git
+      version: indigo
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/somanet_msgs-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: https://github.com/yujinrobot/somanet_msgs.git
+      version: indigo
     status: developed
 type: distribution
 version: 1
