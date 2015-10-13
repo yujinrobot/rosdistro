@@ -371,6 +371,23 @@ repositories:
       url: https://github.com/robotics-in-concert/rocon_tools.git
       version: gopher
     status: developed
+  rostful-node:
+    doc:
+      type: git
+      url: https://github.com/asmodehn/rostful-node.git
+      version: indigo-devel
+    release:
+      packages:
+      - rostful_node
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/rostful-node-release.git
+      version: 0.0.7-0
+    source:
+      type: git
+      url: https://github.com/asmodehn/rostful-node.git
+      version: indigo-devel
+    status: developed
   somanet_msgs:
     doc:
       type: git
