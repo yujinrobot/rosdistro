@@ -203,6 +203,21 @@ repositories:
       url: git@bitbucket.org:yujinrobot/gopher_msgs.git
       version: indigo
     status: developed
+  gopher_rapps:
+    doc:
+      type: git
+      url: git@bitbucket.org:yujinrobot/gopher_rapps.git
+      version: indigo
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/gopher_rapps-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: git@bitbucket.org:yujinrobot/gopher_rapps.git
+      version: indigo
+    status: developed
   gopher_rocon:
     doc:
       type: git
