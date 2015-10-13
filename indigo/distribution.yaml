@@ -194,6 +194,24 @@ repositories:
       version: indigo-devel
     status: end-of-life
     status_description: Moving python dependencies to corresponding package repository
+  gopher_concert:
+    doc:
+      type: git
+      url: git@bitbucket.org:yujinrobot/gopher_concert.git
+      version: indigo
+    release:
+      packages:
+      - gocart_concert
+      - gopher_concert
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/gopher_concert-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: git@bitbucket.org:yujinrobot/gopher_concert.git
+      version: indigo
+    status: developed
   gopher_crazy_hospital:
     doc:
       type: git
