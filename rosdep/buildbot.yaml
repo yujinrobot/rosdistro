@@ -1,9 +1,0 @@
-#DRAFT DONT USE JUST YET
-gopher_msgs:
-  ubuntu: [nexell-kernel-sources-2.6.32.13-yujin]
-gopher_navi_msgs:
-  ubuntu: [nexell-kernel-sources-2.6.32.13-yujin]
-gopher_semantic_msgs:
-  ubuntu: [nexell-kernel-sources-2.6.32.13-yujin]
-gopher_std_msgs:
-  ubuntu: [nexell-kernel-sources-2.6.32.13-yujin]
