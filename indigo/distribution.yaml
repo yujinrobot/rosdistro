@@ -203,6 +203,26 @@ repositories:
       url: git@bitbucket.org:yujinrobot/gopher_msgs.git
       version: indigo
     status: developed
+  gopher_rocon:
+    doc:
+      type: git
+      url: git@bitbucket.org:yujinrobot/gopher_rocon.git
+      version: indigo
+    release:
+      packages:
+      - gopher_rocon
+      - gopher_rocon_bootstrap
+      - gopher_tasks
+      - gopher_webui
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/gopher_rocon-release.git
+      version: 0.2.1-0
+    source:
+      type: git
+      url: git@bitbucket.org:yujinrobot/gopher_rocon.git
+      version: indigo
+    status: developed
   rocon_app_platform:
     doc:
       type: git
