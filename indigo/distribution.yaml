@@ -6,6 +6,21 @@ release_platforms:
   ubuntu:
   - trusty
 repositories:
+  dslam_msgs:
+    doc:
+      type: git
+      url: git@bitbucket.org:yujinrobot/dslam_msgs.git
+      version: gopher
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/dslam_msgs-release.git
+      version: 0.4.0-0
+    source:
+      type: git
+      url: git@bitbucket.org:yujinrobot/dslam_msgs.git
+      version: gopher
+    status: developed
   ecl_core:
     doc:
       type: git
@@ -144,6 +159,26 @@ repositories:
       url: git@bitbucket.org:yujinrobot/gopher_msgs.git
       version: indigo
     status: developed
+  rocon_app_platform:
+    doc:
+      type: git
+      url: https://github.com/robotics-in-concert/rocon_app_platform.git
+      version: gopher
+    release:
+      packages:
+      - rocon_app_manager
+      - rocon_app_platform
+      - rocon_app_utilities
+      - rocon_apps
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/rocon_app_platform-release.git
+      version: 0.8.0-0
+    source:
+      type: git
+      url: https://github.com/robotics-in-concert/rocon_app_platform.git
+      version: gopher
+    status: developed
   rocon_msgs:
     doc:
       type: git
@@ -171,6 +206,21 @@ repositories:
       type: git
       url: https://github.com/robotics-in-concert/rocon_msgs.git
       version: gopher
+    status: developed
+  somanet_msgs:
+    doc:
+      type: git
+      url: https://github.com/yujinrobot/somanet_msgs.git
+      version: indigo
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/somanet_msgs-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: https://github.com/yujinrobot/somanet_msgs.git
+      version: indigo
     status: developed
   rocon_multimaster:
     doc:
