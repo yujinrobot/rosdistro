@@ -172,5 +172,36 @@ repositories:
       url: https://github.com/robotics-in-concert/rocon_msgs.git
       version: gopher
     status: developed
+  rocon_qt_gui:
+    doc:
+      type: git
+      url: https://github.com/robotics-in-concert/rocon_qt_gui.git
+      version: gopher
+    release:
+      packages:
+      - concert_admin_app
+      - concert_conductor_graph
+      - concert_qt_image_stream
+      - concert_qt_make_a_map
+      - concert_qt_map_annotation
+      - concert_qt_service_info
+      - concert_qt_teleop
+      - rocon_gateway_graph
+      - rocon_qt_app_manager
+      - rocon_qt_gui
+      - rocon_qt_library
+      - rocon_qt_listener
+      - rocon_qt_master_info
+      - rocon_qt_teleop
+      - rocon_remocon
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/rocon_qt_gui-release.git
+      version: 0.8.0-0
+    source:
+      type: git
+      url: https://github.com/robotics-in-concert/rocon_qt_gui.git
+      version: gopher
+    status: developed
 type: distribution
 version: 1
