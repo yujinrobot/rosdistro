@@ -161,6 +161,24 @@ repositories:
       url: git@bitbucket.org:yujinrobot/elevator_interactions.git
       version: indigo
     status: developed
+  flask-ext-catkin:
+    doc:
+      type: git
+      url: https://github.com/asmodehn/flask-ext-catkin.git
+      version: aa60144a7276c20ebcbb08907e7adac4236d1fa6
+    release:
+      packages:
+      - flask_ext_catkin
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/flask-ext-catkin-release.git
+      version: 0.1.0-0
+    source:
+      type: git
+      url: https://github.com/asmodehn/flask-ext-catkin.git
+      version: aa60144a7276c20ebcbb08907e7adac4236d1fa6
+    status: end-of-life
+    status_description: Moving python dependencies to corresponding package repository
   gopher_crazy_hospital:
     doc:
       type: git
