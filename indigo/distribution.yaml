@@ -6,6 +6,21 @@ release_platforms:
   ubuntu:
   - trusty
 repositories:
+  dslam_msgs:
+    doc:
+      type: git
+      url: git@bitbucket.org:yujinrobot/dslam_msgs.git
+      version: gopher
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/dslam_msgs-release.git
+      version: 0.4.0-0
+    source:
+      type: git
+      url: git@bitbucket.org:yujinrobot/dslam_msgs.git
+      version: gopher
+    status: developed
   ecl_core:
     doc:
       type: git
