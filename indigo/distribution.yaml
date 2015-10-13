@@ -161,6 +161,28 @@ repositories:
       url: git@bitbucket.org:yujinrobot/elevator_interactions.git
       version: indigo
     status: developed
+  gopher_crazy_hospital:
+    doc:
+      type: git
+      url: git@bitbucket.org:yujinrobot/gopher_crazy_hospital.git
+      version: indigo
+    release:
+      packages:
+      - gopher_behaviours
+      - gopher_configuration
+      - gopher_crazy_hospital
+      - gopher_semantics
+      - marco_polo
+      - py_trees
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/gopher_crazy_hospital-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: git@bitbucket.org:yujinrobot/gopher_crazy_hospital.git
+      version: indigo
+    status: developed
   gopher_msgs:
     doc:
       type: git
