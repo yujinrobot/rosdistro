@@ -291,6 +291,27 @@ repositories:
       url: https://github.com/robotics-in-concert/rocon_app_platform.git
       version: gopher
     status: developed
+  rocon_concert:
+    doc:
+      type: git
+      url: https://github.com/robotics-in-concert/rocon_concert.git
+      version: gopher
+    release:
+      packages:
+      - concert_conductor
+      - concert_master
+      - concert_software_farmer
+      - concert_utilities
+      - rocon_concert
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:yujinrobot/rocon_concert-release.git
+      version: 0.7.1-0
+    source:
+      type: git
+      url: https://github.com/robotics-in-concert/rocon_concert.git
+      version: gopher
+    status: developed
   rocon_msgs:
     doc:
       type: git
