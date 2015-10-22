@@ -170,7 +170,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: git@bitbucket.org:yujinrobot/elevator_interactions-release.git
-      version: 0.1.0-1
+      version: 0.1.0-2
     source:
       type: git
       url: git@bitbucket.org:yujinrobot/elevator_interactions.git
