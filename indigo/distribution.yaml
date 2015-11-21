@@ -306,6 +306,23 @@ repositories:
       url: git@bitbucket.org:yujinrobot/gopher_rocon.git
       version: indigo
     status: developed
+  marshmallow:
+    doc:
+      type: git
+      url: https://github.com/marshmallow-code/marshmallow.git
+      version: :{version}
+    release:
+      packages:
+      - python-marshmallow
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/asmodehn/marshmallow-rosrelease.git
+      version: 2.2.1-0
+    source:
+      type: git
+      url: https://github.com/marshmallow-code/marshmallow.git
+      version: :{version}
+    status: maintained
   rocon:
     doc:
       type: git
