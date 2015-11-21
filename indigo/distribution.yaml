@@ -307,10 +307,6 @@ repositories:
       version: indigo
     status: developed
   marshmallow:
-    doc:
-      type: git
-      url: https://github.com/marshmallow-code/marshmallow.git
-      version: dev
     release:
       packages:
       - python-marshmallow
@@ -318,10 +314,6 @@ repositories:
         release: release/indigo/{package}/{version}
       url: https://github.com/asmodehn/marshmallow-rosrelease.git
       version: 2.2.1-1
-    source:
-      type: git
-      url: https://github.com/marshmallow-code/marshmallow.git
-      version: dev
     status: maintained
   rocon:
     doc:
