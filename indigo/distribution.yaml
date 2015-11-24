@@ -69,7 +69,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_core-release
-      version: 0.61.3-0
+      version: 0.61.5-0
     source:
       type: git
       url: https://github.com/stonier/ecl_core.git
@@ -92,7 +92,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_lite-release.git
-      version: 0.61.1-0
+      version: 0.61.2-0
     source:
       type: git
       url: https://github.com/stonier/ecl_lite.git
@@ -111,7 +111,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_manipulation-release.git
-      version: 0.60.0-0
+      version: 0.60.1-0
     source:
       type: git
       url: https://github.com/stonier/ecl_manipulation.git
@@ -129,7 +129,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_navigation-release.git
-      version: 0.60.0-0
+      version: 0.60.1-0
     source:
       type: git
       url: https://github.com/stonier/ecl_navigation.git
