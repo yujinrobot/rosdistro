@@ -552,5 +552,14 @@ repositories:
       url: https://github.com/yujinrobot/somanet_msgs.git
       version: indigo
     status: developed
+  webargs:
+    release:
+      packages:
+      - python_webargs
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/asmodehn/webargs-rosrelease.git
+      version: 1.1.1-0
+    status: developed
 type: distribution
 version: 1
