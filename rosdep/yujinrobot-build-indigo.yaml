@@ -78,6 +78,8 @@ gopher_tasks: {ubuntu: ros-indigo-gopher-tasks}
 gopher_webui: {ubuntu: ros-indigo-gopher-webui}
 marco_polo: {ubuntu: ros-indigo-marco-polo}
 py_trees: {ubuntu: ros-indigo-py-trees}
+python-marshmallow: {ubuntu: ros-indigo-python-marshmallow}
+python_webargs: {ubuntu: ros-indigo-python-webargs}
 rocon: {ubuntu: ros-indigo-rocon}
 rocon_app_manager: {ubuntu: ros-indigo-rocon-app-manager}
 rocon_app_manager_msgs: {ubuntu: ros-indigo-rocon-app-manager-msgs}
