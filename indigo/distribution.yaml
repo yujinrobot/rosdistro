@@ -309,11 +309,11 @@ repositories:
   marshmallow:
     release:
       packages:
-      - python-marshmallow
+      - python_marshmallow
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/asmodehn/marshmallow-rosrelease.git
-      version: 2.2.1-4
+      version: 2.2.1-6
     status: maintained
   rocon:
     doc:
