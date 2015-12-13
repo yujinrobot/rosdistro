@@ -79,6 +79,7 @@ gopher_webui: {ubuntu: ros-indigo-gopher-webui}
 marco_polo: {ubuntu: ros-indigo-marco-polo}
 py_trees: {ubuntu: ros-indigo-py-trees}
 python-marshmallow: {ubuntu: ros-indigo-python-marshmallow}
+python_tblib: {ubuntu: ros-indigo-python-tblib}
 python_webargs: {ubuntu: ros-indigo-python-webargs}
 rocon: {ubuntu: ros-indigo-rocon}
 rocon_app_manager: {ubuntu: ros-indigo-rocon-app-manager}
