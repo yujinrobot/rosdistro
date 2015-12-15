@@ -128,6 +128,5 @@ rocon_unreliable_experiments: {ubuntu: ros-indigo-rocon-unreliable-experiments}
 rocon_uri: {ubuntu: ros-indigo-rocon-uri}
 rostful: {ubuntu: ros-indigo-rostful}
 rostful_examples: {ubuntu: ros-indigo-rostful-examples}
-rostful_node: {ubuntu: ros-indigo-rostful-node}
 scheduler_msgs: {ubuntu: ros-indigo-scheduler-msgs}
 somanet_msgs: {ubuntu: ros-indigo-somanet-msgs}
