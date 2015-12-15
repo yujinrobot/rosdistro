@@ -530,10 +530,6 @@ repositories:
       version: indigo-devel
     status: developed
   pyros:
-    doc:
-      type: git
-      url: https://github.com/asmodehn/pyros.git
-      version: indigo-devel
     source:
       type: git
       url: https://github.com/asmodehn/pyros.git
