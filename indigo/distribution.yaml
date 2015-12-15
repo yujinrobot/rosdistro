@@ -534,13 +534,6 @@ repositories:
       type: git
       url: https://github.com/asmodehn/pyros.git
       version: indigo-devel
-    release:
-      packages:
-      - pyros
-      tags:
-        release: release/indigo/{package}/{version}
-      url: git@bitbucket.org:yujinrobot/pyros-release.git
-      version: 0.0.7-0
     source:
       type: git
       url: https://github.com/asmodehn/pyros.git
