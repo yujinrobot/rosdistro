@@ -529,21 +529,21 @@ repositories:
       url: https://github.com/asmodehn/rostful.git
       version: indigo-devel
     status: developed
-  rostful-node:
+  pyros:
     doc:
       type: git
-      url: https://github.com/asmodehn/rostful-node.git
+      url: https://github.com/asmodehn/pyros.git
       version: indigo-devel
     release:
       packages:
-      - rostful_node
+      - pyros
       tags:
         release: release/indigo/{package}/{version}
-      url: git@bitbucket.org:yujinrobot/rostful-node-release.git
+      url: git@bitbucket.org:yujinrobot/pyros-release.git
       version: 0.0.7-0
     source:
       type: git
-      url: https://github.com/asmodehn/rostful-node.git
+      url: https://github.com/asmodehn/pyros.git
       version: indigo-devel
     status: developed
   somanet_msgs:
