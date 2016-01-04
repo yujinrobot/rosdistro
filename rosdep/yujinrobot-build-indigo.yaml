@@ -78,6 +78,8 @@ gopher_tasks: {ubuntu: ros-indigo-gopher-tasks}
 gopher_webui: {ubuntu: ros-indigo-gopher-webui}
 marco_polo: {ubuntu: ros-indigo-marco-polo}
 py_trees: {ubuntu: ros-indigo-py-trees}
+pyros_setup: {ubuntu: ros-indigo-pyros-setup}
+pyros_test: {ubuntu: ros-indigo-pyros-test}
 python-marshmallow: {ubuntu: ros-indigo-python-marshmallow}
 python_tblib: {ubuntu: ros-indigo-python-tblib}
 python_webargs: {ubuntu: ros-indigo-python-webargs}
