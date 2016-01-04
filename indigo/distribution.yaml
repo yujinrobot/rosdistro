@@ -315,6 +315,27 @@ repositories:
       url: https://github.com/asmodehn/marshmallow-rosrelease.git
       version: 2.2.1-4
     status: maintained
+  pyros:
+    source:
+      type: git
+      url: https://github.com/asmodehn/pyros.git
+      version: indigo-devel
+    status: developed
+  pyros_test:
+    doc:
+      type: git
+      url: https://github.com/asmodehn/pyros-test.git
+      version: indigo
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/asmodehn/pyros-test-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/asmodehn/pyros-test.git
+      version: indigo
+    status: developed
   python-tblib:
     release:
       packages:
@@ -527,12 +548,6 @@ repositories:
     source:
       type: git
       url: https://github.com/asmodehn/rostful.git
-      version: indigo-devel
-    status: developed
-  pyros:
-    source:
-      type: git
-      url: https://github.com/asmodehn/pyros.git
       version: indigo-devel
     status: developed
   somanet_msgs:
