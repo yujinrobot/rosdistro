@@ -20,6 +20,8 @@ python-anyconfig:
   ubuntu: [python-anyconfig]
 python-sphinx-rtd-theme:
   ubuntu: [python-sphinx-rtd-theme]
+python-yujin-tools:
+  ubuntu: [python-yujin-tools]
 python-transitions:
   ubuntu: [python-transitions]
 udev-rules-yujin:
