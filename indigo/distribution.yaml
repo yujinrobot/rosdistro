@@ -6,6 +6,23 @@ release_platforms:
   ubuntu:
   - trusty
 repositories:
+  caktin_pure_python:
+    doc:
+      type: git
+      url: https://github.com/asmodehn/catkin_pure_python.git
+      version: indigo
+    release:
+      packages:
+      - catkin_pure_python
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/asmodehn/catkin_pure_python-release.git
+      version: 0.0.1-1
+    source:
+      type: git
+      url: https://github.com/asmodehn/catkin_pure_python.git
+      version: indigo
+    status: developed
   celeros:
     doc:
       type: git
