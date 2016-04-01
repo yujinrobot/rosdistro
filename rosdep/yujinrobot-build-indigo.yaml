@@ -1,3 +1,4 @@
+catkin_pure_python: {ubuntu: ros-indigo-catkin-pure-python}
 celeros: {ubuntu: ros-indigo-celeros}
 concert_admin_app: {ubuntu: ros-indigo-concert-admin-app}
 concert_conductor: {ubuntu: ros-indigo-concert-conductor}
