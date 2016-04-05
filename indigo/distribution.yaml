@@ -6,7 +6,7 @@ release_platforms:
   ubuntu:
   - trusty
 repositories:
-  caktin_pure_python:
+  catkin_pure_python:
     doc:
       type: git
       url: https://github.com/asmodehn/catkin_pure_python.git
