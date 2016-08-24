@@ -1,9 +1,3 @@
-nexell-kernel-sources:
-  ubuntu: [nexell-kernel-sources-2.6.32.13-yujin]
-nexell-toolchain-arm-eabi:
-  ubuntu: [nexell-toolchain-arm-eabi-4.3.2-glibc-2.9-yujin]
-nexell-binaries:
-  ubuntu: [nexell-binaries-yujin]
 arm_buildroot_linux_gnueabihf_yujin:
   ubuntu: [arm-buildroot-linux-gnueabihf-4.8.3-glibc-2.18-yujin]
 arm_buildroot_linux_gnueabi_yujin:
@@ -14,6 +8,14 @@ icons_yujin:
   ubuntu: [icons-yujin]
 kernel_sources_2_6_32_13_yujin:
   ubuntu: [kernel-sources-2.6.32.13-yujin]
+network-manager-rules-yujin:
+  ubuntu: [network-manager-rules-yujin]
+nexell-kernel-sources:
+  ubuntu: [nexell-kernel-sources-2.6.32.13-yujin]
+nexell-toolchain-arm-eabi:
+  ubuntu: [nexell-toolchain-arm-eabi-4.3.2-glibc-2.9-yujin]
+nexell-binaries:
+  ubuntu: [nexell-binaries-yujin]
 plantuml:
   ubuntu: plantuml-yujin
 python-anyconfig:
